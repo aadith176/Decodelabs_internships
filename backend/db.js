@@ -1,0 +1,18 @@
+const { MongoClient } = require("mongodb");
+
+const uri =
+  "mongodb+srv://studentportal:Studentportal123@cluster0.tuyeqjs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+const client = new MongoClient(uri);
+
+async function connectDB() {
+  try {
+    await client.connect();
+    console.log("MongoDB Connected ✅");
+    return client.db("student_portal");
+  } catch (error) {
+    console.error("Database Error:", error);
+  }
+}
+
+module.exports = connectDB;
