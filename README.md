@@ -123,6 +123,23 @@ Password: student123
   "timetable": "Active"
 }
 ```
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Teacher Dashboard
+![Teacher Dashboard 1](screenshots/teacherview1.png)
+
+![Teacher Dashboard 2](screenshots/teacherview2.png)
+
+### Student Dashboard
+![Student Dashboard](screenshots/student.png)
+
+![Student Dashboard Details](screenshots/student1.png)
+
+### Updating Student Records
+![Updating Student Records](screenshots/updating.png)
 
 ## Future Improvements
 
